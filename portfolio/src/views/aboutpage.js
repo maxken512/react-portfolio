@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from '../components/hero.js'
 
 function AboutPage(props) {
     return(
-        <h1>Works</h1>
-    )
+        <Hero tite={props.title} />
+    );
 }
 
 export default AboutPage

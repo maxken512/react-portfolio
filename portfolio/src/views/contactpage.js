@@ -1,8 +1,9 @@
 import React from 'react';
+import Hero from '../components/hero.js'
 
-function ContactPage() {
+function ContactPage(props) {
     return(
-        <h1>also works</h1>
+        <Hero title={props.title} />
     );
 }
 
